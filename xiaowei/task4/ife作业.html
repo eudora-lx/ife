@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>4定位和居中问题 ife作业</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.content{
+			width: 400px;
+			height: 200px;
+			position: absolute;
+			background-color: #ccc;
+			top: 50%;
+			left: 50%;
+			margin-top: -100px;
+			margin-left: -200px;
+
+		}
+		.sector1{
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			left: 0;
+			top: 0;
+			border-radius: 0 0 50px 0;
+			background-color: #fc0;
+		}
+		.sector2{
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			left: 350px;/*right: 0;*/
+			top: 150px;/*bottom: 0;*/
+			border-radius: 50px 0 0 0;
+			background-color: #fc0;
+		}
+	</style>
+</head>
+<body>
+	<div class="content">
+		<div class="sector1"></div>
+		<div class="sector2"></div>
+	</div>	
+</body>
+</html>
