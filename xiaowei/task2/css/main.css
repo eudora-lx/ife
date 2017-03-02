@@ -1,0 +1,111 @@
+body{
+	background-color: rgb(181,0,0);
+}
+header{
+	background-color: #FFFFFF;
+	height: 180px;
+	width: 100%;
+	margin-top: 0px;
+	border: 1px solid rgb(181,0,0);
+	box-shadow: 0 0 1em gold;
+}
+header a img{
+	float: left;
+	margin-left: 180px;
+}
+header nav ul li{
+	list-style-type: none;
+	float: right;
+	padding: 50px 90px;
+	font-size: 20px;
+}
+header nav ul li a{
+	text-decoration: none;
+	color: rgb(181,0,0);
+	font-family: Lobster;
+}
+article , aside{
+	width: 90%;
+	margin: 20px auto;
+	border: 1px solid rgb(181,0,0);
+	background-color: #ffffff;
+	box-shadow: 0 0 1em gold;
+	color: rgb(43,64,23);
+	padding: 30px;
+}
+article h2{
+	color: rgb(181,0,0);
+	font-size: 16px;
+}
+article .author{
+	color: rgb(181,0,0);
+	font-weight: lighter;
+	font-size: 14px;
+} 
+article .content{
+	text-indent: 2em;
+}
+article .tab {
+	width: 90%;
+	margin: 0 auto;
+}
+article .tab tr td{
+	border-spacing: none;
+	border-bottom:1px solid gray;
+}
+article .tab th{
+	background-color: rgb(181,0,0);
+	color: #ffffff;
+}
+article .tab #total{
+	background-color: rgb(43,64,23);
+	color: #ffffff;
+}
+aside form{
+	width: 70%;
+	margin: 10px auto;
+}
+aside form div{
+    font-size: 14px;
+    margin:15px 0;
+}
+aside form div .tag{
+    float:left;         
+    text-align:right;
+    width:35%;
+    padding-right:15px;
+}
+aside form div p{
+    margin-left:35%;
+    padding-left:15px;
+    font-size:12px;
+    color: #aaa;
+}
+aside textarea{
+    width:50%;
+    height:100px;
+
+}
+
+aside #btn{
+	width: 100%;
+	height: 50px;
+	background-color: rgb(181,0,0);
+	color: #ffffff;
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+}
+aside #btn:hover{
+	background-color: rgb(43,64,23);
+}
+
+footer{
+	width:100%;
+    height:50px;
+    background:black;
+    color:white;
+    text-align:center;
+    line-height:50px;
+    font-size:14px;
+}
